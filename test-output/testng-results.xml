@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="14488" started-at="2021-01-08T12:51:50Z" finished-at="2021-01-08T12:52:04Z">
+  <suite name="Default suite" duration-ms="69022" started-at="2021-01-08T13:16:03Z" finished-at="2021-01-08T13:17:12Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="14488" started-at="2021-01-08T12:51:50Z" finished-at="2021-01-08T12:52:04Z">
-      <class name="test.Calendar">
-        <test-method status="PASS" signature="startbrowser()[pri:0, instance:test.Calendar@4667ae56]" name="startbrowser" is-config="true" duration-ms="9084" started-at="2021-01-08T12:51:50Z" finished-at="2021-01-08T12:51:59Z">
+    <test name="Default test" duration-ms="69022" started-at="2021-01-08T13:16:03Z" finished-at="2021-01-08T13:17:12Z">
+      <class name="test.Links">
+        <test-method status="PASS" signature="startbrowser()[pri:0, instance:test.Links@4667ae56]" name="startbrowser" is-config="true" duration-ms="6616" started-at="2021-01-08T13:16:03Z" finished-at="2021-01-08T13:16:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startbrowser -->
-        <test-method status="FAIL" signature="test()[pri:0, instance:test.Calendar@4667ae56]" name="test" duration-ms="5320" started-at="2021-01-08T12:51:59Z" finished-at="2021-01-08T12:52:04Z">
+        <test-method status="FAIL" signature="test()[pri:0, instance:test.Links@4667ae56]" name="test" duration-ms="62248" started-at="2021-01-08T13:16:10Z" finished-at="2021-01-08T13:17:12Z">
           <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
               <![CDATA[no such window: target window already closed
@@ -20,8 +20,8 @@ from unknown error: web view not found
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'LAPTOP-IKGRIVOR', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55256}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 7e57d788b6b6ab6319def45a705cfbc3]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:59684}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 97434518a42cdaba1f22cd94b70a9f9b]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
@@ -30,8 +30,8 @@ from unknown error: web view not found
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'LAPTOP-IKGRIVOR', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55256}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 7e57d788b6b6ab6319def45a705cfbc3
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:59684}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 97434518a42cdaba1f22cd94b70a9f9b
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -43,8 +43,9 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:833)
-at test.Calendar.test(Calendar.java:31)
+at org.openqa.selenium.remote.RemoteWebDriver.getWindowHandle(RemoteWebDriver.java:468)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.window(RemoteWebDriver.java:903)
+at test.Links.test(Links.java:73)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -76,7 +77,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-      </class> <!-- test.Calendar -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- test.Links -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

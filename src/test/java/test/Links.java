@@ -22,7 +22,7 @@ public class Links {
 	public void startbrowser()
 	
 	{
-		System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\\\Hp\\eclipse-workspace\\appium\\chromedriver.exe");
 		driver = new ChromeDriver();
 	}
 	
