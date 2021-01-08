@@ -4,6 +4,9 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="test.Calendar"/>
+            <class name="test.Links"/>
+      
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
