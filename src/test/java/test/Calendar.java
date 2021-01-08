@@ -19,7 +19,7 @@ public class Calendar {
 	public void startbrowser()
 	
 	{
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Hp\\eclipse-workspace\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Hp\\eclipse-workspace\\appium\\chromedriver.exe");
 		driver = new ChromeDriver();
 	}
 	
