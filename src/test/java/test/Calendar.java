@@ -61,7 +61,7 @@ if(dates.get(i).getText().equalsIgnoreCase("25"))
 
 }
 
-
+System.out.println("test case passed");
 
 	}}
 
