@@ -72,8 +72,12 @@ while(it.hasNext())
 {
 String title=	driver.switchTo().window(it.next()).getTitle();
 System.out.println(title);
+
+System.out.println("test is completed");
 }
-	}
 	}
 	
 
+	
+}
+	
